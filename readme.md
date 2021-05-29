@@ -1,4 +1,8 @@
 ## Personal Website
-[Mihai Crăiță](https://mihai.craita.net)
+The website can be found here: [Mihai Crăiță](https://mihai.craita.net)
 
-You can find my articles in the articles folder.
+To build the site:
+```
+npm install
+./build.sh
+```
