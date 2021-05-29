@@ -27,9 +27,9 @@
          }
          #wrapper {
             background-color: black;
+            display: flex;
+            justify-content: space-between;
             margin:0 auto;
-            position: relative;
-            width: 100%;
          }
          #content {
             color: white;
@@ -43,9 +43,6 @@
          }
          p {
             padding:0 4em 0 8em;
-         }
-         div.clear {
-            clear:both;
          }
          div.technology {
             background-color: white;
@@ -62,7 +59,6 @@
          footer {
             margin-top: 1em;
             background-color: white;
-            clear:both;
          }
       </style>
    </head>
@@ -82,19 +78,17 @@
             <div class="technology" style="width:30%;">C/C++</div>
             <div class="technology" style="width:20%;">ASP.NET</div>
             <h1>people I worked with</h1>
-            <p>
-            <a href="https://eventbook.ro">Eventbook</a><br/>
-            <a href="https://www.emag.ro/">Emag</a><br/>
-            <a href="https://www.mindgeek.com/">Mindgeek</a><br/>
-            <a href="https://www.atelieruldetuns.ro/">AtelierulDeTuns</a><br/>
-            <a href="https://www.flanco.ro/">Flanco</a><br/>
-            <a href="#">CrossTown</a><br/>
-            </p>
+            <ul>
+               <li><a href="https://eventbook.ro">Eventbook</a></li>
+               <li><a href="https://www.emag.ro/">Emag</a></li>
+               <li><a href="https://www.mindgeek.com/">Mindgeek</a></li>
+               <li><a href="https://www.atelieruldetuns.ro/">AtelierulDeTuns</a></li>
+               <li><a href="https://www.flanco.ro/">Flanco</a></li>
+               <li><a href="#">CrossTown</a></li>
+            </ul>
          </div>
-         <div style="float:right; width:50%;">
+         <div>
             <img src="giraffe.jpg" style="float:right; height:620px; width:100%; max-width: 600px;" alt="giraffes"/>
-         </div>
-         <div class="clear">
          </div>
       </div>
       <footer>
