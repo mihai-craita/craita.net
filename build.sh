@@ -7,3 +7,6 @@ npx html-minifier-terser --collapse-inline-tag-whitespace --collapse-whitespace 
 cp ./src/*.jpg ./build/.
 cp ./src/robots.txt ./build/.
 cp ./src/favicon.ico ./build/.
+
+# Open Meditation pages (support + privacy), built from that repo; needs CONTACT_EMAIL.
+../open_meditation/Scripts/build-website.sh ./build
