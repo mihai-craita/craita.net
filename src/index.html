@@ -10,67 +10,65 @@
       <link rel="canonical" href="https://mihai.craita.net" />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
       <style type="text/css">
-         body {
-            background-color: white; 
-            color: black;
-            font-family: 'Verdana', sans-serif;
-            margin: 0 auto;
-            line-height: 1.5;
-            font-size: 16px;
+         * {
+            line-height:     1.5;
+            font-size:       16px;
+            font-weight:     normal;
+            color:           black;
+            font-family:     'Verdana', sans-serif;
+         }
+         body, .tech {
+            margin:          0;
+            background:      white;
          }
          main {
-            background-color: black;
-            display: flex;
+            background:      black;
+            display:         flex;
             justify-content: space-between;
-            align-items: flex-start;
+            align-items:     flex-start;
+            margin-bottom:   1rem;
+         }
+         h1, h2 {
+            font-size:       200%;
+            margin:    2rem 0 2rem 6rem;
          }
          h1 {
-            font-size: 400%;
-            font-style: normal;
-            font-weight: normal;
-            margin:2rem 0;
-            padding: 0 6rem;
-         }
-         p, ul {
-            padding:0 0 0 9rem;
-            text-align: justify;
-         }
-         a {
-            color:white;
-         }
-         ul {
-            list-style: none;
-         }
-         footer {
-            margin-top: 1rem;
-            background-color: white;
-         }
-         #content {
-            color: white;
-            max-width: 800px;
+            font-size:       400%;
          }
          h2 {
-            font-size:200%;
-            padding:0 0 0 6rem;
+            font-weight:     bold;
          }
-         div.tech {
-            background-color: white;
-            color: black;
-            border-radius:0 5px 5px 0;
-            font-weight: bold;
-            margin-bottom: 1rem;
-            padding: 0 1rem;
-            text-align: right;
+         p, ul {
+            margin-left:     9rem;
+         }
+         ul {
+            list-style:      none;
+            padding:         0;
+         }
+         p, h2, ul a {
+            color:           white;
+            display:         block;
+            text-align:      justify;
+         }
+         article {
+            max-width:       800px;
+         }
+         .tech {
+            border-radius:   0 5px 5px 0;
+            font-weight:     bold;
+            margin-bottom:   1rem;
+            padding:         0 1rem;
+            text-align:      right;
          }
       </style>
    </head>
    <body>
       <h1>mihai craita</h1>
       <main>
-         <div id="content">
+         <article>
             <h2>about me</h2>
-            <p>Hi, I'm the software engineer / web developer who made this page so that I can keep track of my projects and also to present my work to the big world of the internet.<br/>
-            Co-owner at eventbook I build software that sells to ten of thousands of customers. <br/>I solve problems. I bring revenue to companies by building simple software and help people do things better.
+            <p>Hi, I'm a software engineer / web developer, and this page is where I keep track of my projects and present my work to the big world of the internet.<br/>
+            As co-owner of Eventbook, I build software that sells to thousands of customers. <br/>I solve problems. I bring revenue to companies by building simple software and help people do things better.
             </p>
             <h2>technologies</h2>
             <div class="tech" style="width:70%;">JAVASCRIPT</div>
@@ -82,14 +80,14 @@
             <h2>people I worked with</h2>
             <ul>
                <li><a href="https://eventbook.ro">Eventbook</a></li>
-               <li><a href="https://www.emag.ro/">Emag</a></li>
-               <li><a href="https://www.mindgeek.com/">Mindgeek</a></li>
-               <li><a href="https://www.atelieruldetuns.ro/">AtelierulDeTuns</a></li>
-               <li><a href="https://www.flanco.ro/">Flanco</a></li>
+               <li><a href="https://www.emag.ro">Emag</a></li>
+               <li><a href="https://www.mindgeek.com">Mindgeek</a></li>
+               <li><a href="https://www.atelieruldetuns.ro">AtelierulDeTuns</a></li>
+               <li><a href="https://www.flanco.ro">Flanco</a></li>
                <li><a href="#">CrossTown</a></li>
             </ul>
-         </div>
-         <img src="giraffe.jpg" alt="giraffes"/>
+         </article>
+         <img src="giraffe.jpg" alt="two giraffes in black and white"/>
       </main>
       <footer>
          mihai@craita.net
